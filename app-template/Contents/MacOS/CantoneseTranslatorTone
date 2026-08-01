@@ -1,0 +1,10 @@
+#!/bin/zsh
+RESOURCE_DIR="${0:A:h:h}/Resources"
+if [ -x /usr/local/bin/python3 ]; then
+  PY=/usr/local/bin/python3
+elif [ -x /Library/Frameworks/Python.framework/Versions/3.14/bin/python3 ]; then
+  PY=/Library/Frameworks/Python.framework/Versions/3.14/bin/python3
+else
+  PY=python3
+fi
+exec "$PY" "$RESOURCE_DIR/app.py" "$@"
