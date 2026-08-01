@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+*.app/
+*.zip
+*.dmg
+
+# Local user data / generated audio
+输入记录.json
+我的补充词库.txt
+声调音频/
+*.wav
+
+# Editor
+.vscode/
+.idea/

@@ -1,0 +1,2 @@
+# 当前版本只使用 Python 标准库。
+# Tkinter 通常随 python.org macOS Python 一起安装。
